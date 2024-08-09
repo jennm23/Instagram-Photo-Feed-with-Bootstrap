@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+<body class="container">
+    <nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">
+            <img width="20px" height="20px" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" class="d-inline-block align-text-top">
+            Instagram</a>
+        <ul class="nav nav-pills gap-2">
+          <li class="nav-item">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Create a new post
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5">Create new post</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <label class="pb-2" for=""><strong>Caption:</strong></label>
+                      <br>
+                      <textarea class="form-control" cols="30" rows="2" style="width: 100%;" id="" placeholder="Add the caption of your post here"></textarea>
+                    </div>
+                    <div class="d-flex p-3 gap-2">
+                      <button class="btn btn-light" type="button"><img width="20px" height="20px" src="https://cdn-icons-png.flaticon.com/512/83/83574.png" alt=""></button>
+                      <button class="btn btn-light" type="button"><img width="20px" height="20px" src="https://icons.iconarchive.com/icons/steve/zondicons/512/Location-icon.png" alt=""></button>
+                    </div>
+                      <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </li>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img width="20px" height="20px" src="https://www.pngkey.com/png/full/412-4122990_tuerca-icon.png" alt="">
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accessibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><a class="dropdown-item text-danger border-top" href="#">Long Out</a></li>
+            </ul>
+          </div>
+        </ul>
+      </nav>
+      <nav>
+        <div class="nav d-flex justify-content-center" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="bi bi-grid-3x3"></i></button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="bi bi-square-fill"></i></button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+          <div class="row align-items-start">
+            <div class="col-4 p-2"><img class="img-fluid" src="https://i.pinimg.com/originals/3a/83/06/3a830610d742d0def12b675f42815fe8.jpg" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://64.media.tumblr.com/1931f055e8e9259669b88b0cbb2beb68/tumblr_phs38zoPlL1qem7mx_1280.jpg" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://img.freepik.com/premium-photo/soft-focus-sunny-alley-with-maples-autumn-park-autumn-leaf-fall-path-sunny-autumn-park-with-falling-leaves-square-view_158388-7234.jpg" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://i.pinimg.com/originals/95/62/95/9562954894ef8556741268483f59de02.jpg" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://i0.wp.com/blog.trianglenursery.co.uk/wp-content/uploads/2017/10/autumn-square.jpg?fit=723%2C723" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://angelinos.com/cdn/shop/articles/pumpkin_spice_1500x.jpg?v=1598989599" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://img.apmcdn.org/588f9a33fefb2b480d8b8b0a2b8bfc10ba44f4fc/square/c87d61-20200922-fall-color-duluth02.jpg" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://64.media.tumblr.com/8363460d8f1574812f988a192bb556ec/tumblr_pgihm0Lxge1uae2w5o1_1280.png" alt=""></div>
+            <div class="col-4 p-2"><img class="img-fluid" src="https://www.insomnia.ie/media/images/square_1.png" alt=""></div>
+          </div>
+        </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="card m-auto" style="width: 30rem;">
+          <div class="d-flex justify-content-between align-items-center p-2"> 
+              <h2>Bike day</h2>
+              <h6>26/04</h6>
+          </div>
+          <img src="https://i.pinimg.com/originals/3a/83/06/3a830610d742d0def12b675f42815fe8.jpg" alt="">
+          <div class="p-2">
+              <p><strong>1050 Likes</strong></p>
+              <p>La calle se vuelve un escenario acuático y nuestra compañera de dos ruedas brilla en medio de la lluvia. ¡Pedaleando con estilo incluso con mal tiempo!</p>
+          </div>
+      </div>
+      <br>
+      <div class="card m-auto" style="width: 30rem;">
+        <div class="d-flex justify-content-between align-items-center p-2"> 
+            <h2>Rainy day</h2>
+            <h6>30/04</h6>
+        </div>
+        <img src="https://64.media.tumblr.com/1931f055e8e9259669b88b0cbb2beb68/tumblr_phs38zoPlL1qem7mx_1280.jpg" alt="">
+        <div class="p-2">
+            <p><strong>2150 Likes</strong></p>
+            <p>Día lluvioso en la ciudad: calles mojadas, luces destellantes y esa atmósfera que te hace querer quedarte en cama todo el día.</p>
+        </div>
+    </div>
+    <br>
+    <div class="card m-auto" style="width: 30rem;">
+      <div class="d-flex justify-content-between align-items-center p-2"> 
+          <h2>Trekking day</h2>
+          <h6>10/05</h6>
+      </div>
+      <img src="https://img.freepik.com/premium-photo/soft-focus-sunny-alley-with-maples-autumn-park-autumn-leaf-fall-path-sunny-autumn-park-with-falling-leaves-square-view_158388-7234.jpg" alt="">
+      <div class="p-2">
+          <p><strong>3500 Likes</strong></p>
+          <p>¡A la montaña! Es día de trekking y la aventura nos llama. Naturaleza, amigos y un montón de risas. ¡Nada nos detiene hoy!</p>
+      </div>
+  </div>
+</div>        
+        </div>
+      </div>
+   
+   
+   
+   
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
